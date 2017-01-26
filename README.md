@@ -32,3 +32,11 @@ https://egghead.io/lessons/javascript-use-jest-s-snapshot-testing-feature
 http://facebook.github.io/jest/blog/2016/07/27/jest-14.html
 
 > **TL;DR** 2017 will be a big year for Jest, especially when it comes to snapshot testing. Fundamentally, snapshot testing allows developers to validate the spread of their changes, in order to minimize unwanted or unexpected changes to other components.
+
+#### Jest: Tutorial - React
+
+http://facebook.github.io/jest/docs/tutorial-react.html
+
+> **TL;DR**
+
+This tutorial offers two great examples. Firstly, using snapshots allows you to test the manipulation of a compnent's rendering through state changes by taking snapshots at various intervals. It's important to note that you want to reduce the scope of your snapshots to only the relevant code, in order to reduce the frequency at which snapshots expire through normal development. In this case, [Enzyme](https://github.com/airbnb/enzyme) is a great tool to scope your rendered component down to exactly what you want to take a snapshot (ie, a label and not its containers). However, if you're testing a computed value, such as a label title, you can simply evaluate its value through Enzyme's methods.
