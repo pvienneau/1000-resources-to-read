@@ -26,3 +26,9 @@ http://academy.plot.ly/react/6-testing/
 https://egghead.io/lessons/javascript-use-jest-s-snapshot-testing-feature
 
 > **TL;DR** Snapshots allow you not only to track changes to the rendering of your components, but to any data structure. Snap files are a nice file to have in your pull requests in order to be more precise with your code review.
+
+#### Jest 14.0: React Tree Snapshot Testing
+
+http://facebook.github.io/jest/blog/2016/07/27/jest-14.html
+
+> **TL;DR** 2017 will be a big year for Jest, especially when it comes to snapshot testing. Fundamentally, snapshot testing allows developers to validate the spread of their changes, in order to minimize unwanted or unexpected changes to other components.
