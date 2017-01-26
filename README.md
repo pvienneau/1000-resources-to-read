@@ -1,5 +1,13 @@
 # 1000 Resources to Read
 
+## JSConf
+
+#### Hacking Games and Why You Should Do It
+
+https://www.youtube.com/watch?v=pSMljRkpP64
+
+> **TL;DR**: Hacking games allows you to perfect your analytical code skills while having fun. It also exposes to other developers' code, which may help you improve your own.
+
 ## React
 
 ### Testing
