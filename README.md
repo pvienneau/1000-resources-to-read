@@ -2,7 +2,7 @@
 
 ## JSConf
 
-#### Hacking Games and Why You Should Do It
+#### [Video - 31:31] Hacking Games and Why You Should Do It
 
 https://www.youtube.com/watch?v=pSMljRkpP64
 
@@ -19,7 +19,7 @@ http://academy.plot.ly/react/6-testing/
 
 > **TL;DR** See every aspects of React & Redux (components, action creators, reducers) as pure functions; each can be tested by varying the combination of parameters pushed through them and you should expect to receive a consistent result every time a test is run with the same parameter combination.
 
-#### Use Jest's Snapshot Testing Feature
+#### [Video - 3:42] Use Jest's Snapshot Testing Feature
 
 *Often when testing, you use the actual result to create your assertion and have to manually update it as you make changes to the feature. With Jest snapshot testing, you can let Jest do this part for you and write more tests and features faster and with more confidence. Let's learn about how you can use Jest snapshot testing to improve your own workflow.*
 
