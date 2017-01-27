@@ -10,6 +10,15 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 ## React
 
+### Redux
+
+#### [Video - 37:13] Netflix JavaScript Talks - RxJS + Redux + React = Amazing!
+*Jay Phelps (@_jayphelps ) talks about why Netflix loves reactive programming with Rx. In this talk he shares the basics of RxJS 5 Observables and how they can be used with React and Redux to manage asynchronous effects using redux-observable.*
+
+https://www.youtube.com/watch?v=AslncyG8whg
+
+> [Redux-Observable](https://github.com/redux-observable/redux-observable) offers means of tracking, managing and cancelling your asynchronous executions. This offers a middleware between your action creators and reducers in your Redux world.
+
 ### Testing
 
 #### Testing your app with Jest
