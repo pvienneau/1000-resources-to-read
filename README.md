@@ -10,6 +10,14 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 ## React
 
+### Components
+
+#### Presentational and Container Components
+
+https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.gycwunsod
+
+> **TL;DR** There is advantages to splitting components into separate components with specific purposes; container and presentational components. In general terms, presentational components should be solely responsible for the rendering of its data, while container components' purpose is more focused on the transformation of the data and the dispatching of this data through other components. Although there is no specific technical rule for how to split components, components can more easily be split based on their roles and areas of concern.
+
 ### Redux
 
 #### [Video - 37:13] Netflix JavaScript Talks - RxJS + Redux + React = Amazing!
@@ -17,7 +25,7 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 https://www.youtube.com/watch?v=AslncyG8whg
 
-> [Redux-Observable](https://github.com/redux-observable/redux-observable) offers means of tracking, managing and cancelling your asynchronous executions. This offers a middleware between your action creators and reducers in your Redux world.
+> **TL;DR** [Redux-Observable](https://github.com/redux-observable/redux-observable) offers means of tracking, managing and cancelling your asynchronous executions. This offers a middleware between your action creators and reducers in your Redux world.
 
 ### Testing
 
