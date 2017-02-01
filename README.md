@@ -1,5 +1,13 @@
 # 1000 Resources to Read
 
+- [JSConf](#jsconf)
+- [React](#react)
+ - [Components](#components)
+ - [Redux](#redux)
+- [Testing](#testing)
+ - [Jest](#jest)
+ - [Jasmine](#jasmine)
+
 ## JSConf
 
 #### [Video - 31:31] Hacking Games and Why You Should Do It
@@ -27,7 +35,9 @@ https://www.youtube.com/watch?v=AslncyG8whg
 
 > **TL;DR** [Redux-Observable](https://github.com/redux-observable/redux-observable) offers means of tracking, managing and cancelling your asynchronous executions. This offers a middleware between your action creators and reducers in your Redux world.
 
-### Testing
+## Testing
+
+### Jest
 
 #### Testing your app with Jest
 *Learn how to test your React/Redux app thoroughly, including actions, reducers and components!*
@@ -54,6 +64,14 @@ http://facebook.github.io/jest/blog/2016/07/27/jest-14.html
 
 http://facebook.github.io/jest/docs/tutorial-react.html
 
-> **TL;DR**
+> **TL;DR** This tutorial offers two great examples. Firstly, using snapshots allows you to test the manipulation of a compnent's rendering through state changes by taking snapshots at various intervals. It's important to note that you want to reduce the scope of your snapshots to only the relevant code, in order to reduce the frequency at which snapshots expire through normal development. In this case, [Enzyme](https://github.com/airbnb/enzyme) is a great tool to scope your rendered component down to exactly what you want to take a snapshot (ie, a label and not its containers). However, if you're testing a computed value, such as a label title, you can simply evaluate its value through Enzyme's methods.
 
-This tutorial offers two great examples. Firstly, using snapshots allows you to test the manipulation of a compnent's rendering through state changes by taking snapshots at various intervals. It's important to note that you want to reduce the scope of your snapshots to only the relevant code, in order to reduce the frequency at which snapshots expire through normal development. In this case, [Enzyme](https://github.com/airbnb/enzyme) is a great tool to scope your rendered component down to exactly what you want to take a snapshot (ie, a label and not its containers). However, if you're testing a computed value, such as a label title, you can simply evaluate its value through Enzyme's methods.
+### Jasmine
+
+#### Writing Beautiful Specs with Jasmine Custom Matchers
+
+*Custom matchers are one of Jasmine’s most powerful, and yet underutilized, features.*
+
+https://content.pivotal.io/blog/writing-beautiful-specs-with-jasmine-custom-matchers
+
+> **TL;DR** Jasmine custom matchers' benefits are twofold: it allows you to be more precise with your assertions and test functions by pushing repetitive logic into the test itself (keeping code DRY), while allowing you to generate more relevant error messages to the assertion that is being tested. Two great Jasmine matcher libraries are [Jasmine Matchers](https://github.com/JamieMason/Jasmine-Matchers) and [Jasmine jQuery](https://github.com/velesin/jasmine-jquery).
