@@ -35,6 +35,14 @@ https://www.youtube.com/watch?v=AslncyG8whg
 
 > **TL;DR** [Redux-Observable](https://github.com/redux-observable/redux-observable) offers means of tracking, managing and cancelling your asynchronous executions. This offers a middleware between your action creators and reducers in your Redux world.
 
+#### You Might Not Need Redux
+
+*People often choose Redux before they need it. “What if our app doesn’t scale without it?” Later, developers frown at the indirection Redux introduced to their code. “Why do I have to touch three files to get a simple feature working?” Why indeed!*
+
+https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.x7p4tms7k
+
+> **TL;DR**: Redux, offering its benefits, has its own trade-off with its own constraints it sets on the data. It would be safe decision to not always jump the gun on committing to a Redux implementation, as it comes with certain strong conventions on how data should be managed. Although the questions asked here isn't necessarily "Is Redux the best tool", what it's trying to ask is "Is it too soon in the development lifecycle of the application to be commiting to Redux".
+
 ## Testing
 
 ### Jest
