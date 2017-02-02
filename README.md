@@ -18,6 +18,14 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 ## React
 
+#### How I built a product in 5 weeks using Meteor and React
+
+*Or how Ruutly came to life*
+
+https://blog.416serg.me/how-i-built-a-product-in-5-weeks-using-meteor-and-react-ca2cfad35dcc#.jb37d55b3
+
+> **TL;DR** Meteor works very well with React when developing native apps. 
+
 ### Components
 
 #### Presentational and Container Components
