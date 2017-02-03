@@ -95,10 +95,18 @@ https://content.pivotal.io/blog/writing-beautiful-specs-with-jasmine-custom-matc
 
 ### Snapshot
 
+#### Snapshot Testing: Use With Care
+
+*Snapshot Testing has been getting a fair bit of attention recently with some new tool support that makes it easy to use. But is that a good thing?*
+
+http://randycoulman.com/blog/2016/09/06/snapshot-testing-use-with-care/
+
+> **TL;DR** Snapshot testing offers a strong strategy for regression testing, but there are trade-offs to be calculated before running ahead with it. Firstly, snapshot testing requires human interaction to validate the diffs prior to it being merged into the code base, which raised a risk of errors being introduced. Context is also hard to define for tests through snapshots since the tests don't always offer as much description since code is minimal. 
+
 #### Snapshot Testing in React Storybook
 
 *Snapshot testing is a way to test your UI component without writing actual test cases*
 
 https://voice.kadira.io/snapshot-testing-in-react-storybook-43b3b71cec4f#.skc9w5rkj
 
-> **TL;DR**: Jest's snapshot testing has now been introduced to [Storybook](https://github.com/storybooks/react-storybook) which allows you to leverage the stories written out for rendering regression testings. Although snapshot testing won't replace all unit tests for React components, it will be able to automatically run the more mundane tests relating to the proper rendering of a component.
+> **TL;DR** Jest's snapshot testing has now been introduced to [Storybook](https://github.com/storybooks/react-storybook) which allows you to leverage the stories written out for rendering regression testings. Although snapshot testing won't replace all unit tests for React components, it will be able to automatically run the more mundane tests relating to the proper rendering of a component.
