@@ -91,3 +91,13 @@ http://facebook.github.io/jest/docs/tutorial-react.html
 https://content.pivotal.io/blog/writing-beautiful-specs-with-jasmine-custom-matchers
 
 > **TL;DR** Jasmine custom matchers' benefits are twofold: it allows you to be more precise with your assertions and test functions by pushing repetitive logic into the test itself (keeping code DRY), while allowing you to generate more relevant error messages to the assertion that is being tested. Two great Jasmine matcher libraries are [Jasmine Matchers](https://github.com/JamieMason/Jasmine-Matchers) and [Jasmine jQuery](https://github.com/velesin/jasmine-jquery).
+
+### Snapshot
+
+#### Snapshot Testing in React Storybook
+
+*Snapshot testing is a way to test your UI component without writing actual test cases*
+
+https://voice.kadira.io/snapshot-testing-in-react-storybook-43b3b71cec4f#.skc9w5rkj
+
+> **TL;DR**: Jest's snapshot testing has now been introduced to [Storybook](https://github.com/storybooks/react-storybook) which allows you to leverage the stories written out for rendering regression testings. Although snapshot testing won't replace all unit tests for React components, it will be able to automatically run the more mundane tests relating to the proper rendering of a component.
