@@ -36,6 +36,14 @@ https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.gycwunso
 
 > **TL;DR** There is advantages to splitting components into separate components with specific purposes; container and presentational components. In general terms, presentational components should be solely responsible for the rendering of its data, while container components' purpose is more focused on the transformation of the data and the dispatching of this data through other components. Although there is no specific technical rule for how to split components, components can more easily be split based on their roles and areas of concern.
 
+#### Container Components
+
+*One React pattern that has had the greatest effect on my code is the container component pattern.*
+
+https://medium.com/@learnreact/container-components-c0e67432e005#.l4toj1nl2
+
+> **TL;DR** Splitting your components into two area of concern (UI and data) offers better reusability (since the data/context and UI not as tightly coupled) and it offers an extra layer of of prop valiation through PropTypes in order to avoid your application failing silently.
+
 ### Redux
 
 #### [Video - 37:13] Netflix JavaScript Talks - RxJS + Redux + React = Amazing!
