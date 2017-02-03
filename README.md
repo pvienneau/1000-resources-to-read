@@ -8,6 +8,7 @@
  - [Jest](#jest)
  - [Jasmine](#jasmine)
  - [Snapshot Testing](#snapshot-testing)
+ - [Redux](#Redux)
 
 ## JSConf
 
