@@ -5,6 +5,7 @@
  - [Components](#components)
  - [Redux](#redux)
 - [Testing](#testing)
+ - [React](#react)
  - [Jest](#jest)
  - [Jasmine](#jasmine)
  - [Snapshot Testing](#snapshot-testing)
@@ -62,6 +63,17 @@ https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.x7p4tms7k
 > **TL;DR**: Redux, offering its benefits, has its own trade-off with its own constraints it sets on the data. It would be safe decision to not always jump the gun on committing to a Redux implementation, as it comes with certain strong conventions on how data should be managed. Although the questions asked here isn't necessarily "Is Redux the best tool", what it's trying to ask is "Is it too soon in the development lifecycle of the application to be commiting to Redux".
 
 ## Testing
+
+### React
+
+#### The Right Way to Test React Components
+*There’s a lot of confusion right now about the “right” way to test your React components. Should you write all your tests by hand, or only use snapshots, or some of both? Should you test props? State? Styles/Layout?*
+
+*I don’t think there’s one “right” way, but I’ve found a few patterns and tips that work really well for me that I’d like to share.*
+
+https://medium.freecodecamp.com/the-right-way-to-test-react-components-548a4736ab22#.wgubj2c04
+
+> **TL;DR** Understanding the role (*"contract"*) of a component is key to being confident that your tests are correctly testing the component's functionalities without testing aspects that are outside of its scope of concern. Breaking these functionalities into small statements (or predicates) allows you to better structure your tests in logical groupings based on the individual goal and environment setup.
 
 ### Jest
 
