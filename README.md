@@ -45,6 +45,14 @@ https://medium.com/@learnreact/container-components-c0e67432e005#.l4toj1nl2
 
 > **TL;DR** Splitting your components into two area of concern (UI and data) offers better reusability (since the data/context and UI not as tightly coupled) and it offers an extra layer of of prop valiation through PropTypes in order to avoid your application failing silently.
 
+#### How we’re using Component Based Design
+
+*Component Based Design is often talked about in context of large, complex projects. In this post we’re making the case that it can also be very beneficial for smaller projects and teams. We now use Component Based Design for every project, big or small.*
+
+https://medium.com/@lewisplushumphreys/how-were-using-component-based-design-5f9e3176babb#.83bks7z0h
+
+> **TL;DR** Building React components from the ground up (component-based design) allows you to maintain a high level of reusability across your project from the start. By defining varying levels of purposes for components, you can maximize your reusability while keeping maintainability as simple as possible.
+
 ### Redux
 
 #### [Video - 37:13] Netflix JavaScript Talks - RxJS + Redux + React = Amazing!
