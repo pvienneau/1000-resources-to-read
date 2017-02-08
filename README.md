@@ -1,6 +1,8 @@
 # 1000 Resources to Read
 
 - [JSConf](#jsconf)
+- [Javascript](#javascript)
+ - [Reduce](#reduce)
 - [React](#react)
  - [Components](#components)
  - [Styling](#styling)
@@ -18,7 +20,20 @@
 
 https://www.youtube.com/watch?v=pSMljRkpP64
 
-> **TL;DR**: Hacking games allows you to perfect your analytical code skills while having fun. It also exposes to other developers' code, which may help you improve your own.
+> **TL;DR** Hacking games allows you to perfect your analytical code skills while having fun. It also exposes to other developers' code, which may help you improve your own.
+
+
+## Javascript
+
+### Reduce
+
+#### Understanding Javascript Array Reduce in 1 Minute
+
+*Everybody knows what looping over a collection is. But do you know what reducing a collection means?*
+
+https://www.airpair.com/javascript/javascript-array-reduce
+
+> **TL;DR** Reduce essentially reduces the code required to loop through your array set. 
 
 ## React
 
