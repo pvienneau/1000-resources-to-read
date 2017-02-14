@@ -69,6 +69,13 @@ https://medium.com/@lewisplushumphreys/how-were-using-component-based-design-5f9
 
 > **TL;DR** Building React components from the ground up (component-based design) allows you to maintain a high level of reusability across your project from the start. By defining varying levels of purposes for components, you can maximize your reusability while keeping maintainability as simple as possible.
 
+#### Binding callbacks in React components
+
+https://medium.com/@rjun07a/binding-callbacks-in-react-components-9133c0b396c6#.hmyr5muij
+
+> **TL;DR**: As React class methods aren't automatically binded to their scope, this step needs to be done manually. It's best to avoid binding these inside the render function since the two most common approaches to method binding - arrow functions and `bind()` generate a new function per call, adding extra weight on the `render()` method's execution. For that reason, it's best to do this outside of the `render()` method, either in the constructor or with an arrow function class property.
+
+
 ### Styling
 
 #### Modular CSS with React
