@@ -1,6 +1,7 @@
 # 1000 Resources to Read
 
 - [JSConf](#jsconf)
+- [CSS](#css)
 - [Javascript](#javascript)
  - [Reduce](#reduce)
 - [React](#react)
@@ -22,6 +23,15 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 > **TL;DR** Hacking games allows you to perfect your analytical code skills while having fun. It also exposes to other developers' code, which may help you improve your own.
 
+## CSS
+
+#### How Flexbox works — explained with big, colorful, animated gifs
+
+*Flexbox promises to save us from the evils of plain CSS (like vertical alignment). Well, Flexbox does deliver on that goal. But mastering its new mental model can be challenging.*
+
+https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck2u9x
+
+> **TL;DR**: `flex-direction` plays directly onto the main (horizontal) and cross (vertical) axes by inverting them in the case of `flex-direction:column`. Secondary styles such as `justify-content` and `align-items` work directly on these axes and it's important to keep in mind in which direction the main axes is currently oriented, in order to correctly guage the result. 
 
 ## Javascript
 
