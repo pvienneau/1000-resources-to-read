@@ -3,7 +3,7 @@
 - [JSConf](#jsconf)
 - [CSS](#css)
 - [Javascript](#javascript)
- - [Reduce](#reduce)
+ - [Functional Programming](#functional-programming)
 - [React](#react)
  - [Components](#components)
  - [Styling](#styling)
@@ -35,7 +35,13 @@ https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck
 
 ## Javascript
 
-### Reduce
+### Functional Programming
+
+#### [Video - 29:56] Anjana Vakil: Learning Functional Programming with JavaScript
+
+https://www.youtube.com/watch?v=e-5obm1G_FY
+
+> **TL;DR**: One concept to remember from this is that immutability is exploiting object's use of references to allow to minimize structure repeat between mutated data structures by referencing structures between objects that have not been modified. Although it speaks more to the usage of functional programming as a whole, it unfortunately doesn't go into depth about the functional programmning mindset.
 
 #### Understanding Javascript Array Reduce in 1 Minute
 
@@ -43,7 +49,7 @@ https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck
 
 https://www.airpair.com/javascript/javascript-array-reduce
 
-> **TL;DR** Reduce essentially reduces the code required to loop through your array set. 
+> **TL;DR** Reduce essentially iterates through your Array set, pushing along an accumulator value that you can set values to. 
 
 ## React
 
