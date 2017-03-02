@@ -110,6 +110,12 @@ https://www.youtube.com/watch?v=Yy7gFgETp0o
 
 **TL;DR** Many great UI best practices are offered here to optimize the self-sufficiency and integration of reusable components. Firstly, it's worth being as explicit as possible when defining your components' behaviour in order for other developers to gain as much context as possible on how to properly use your components. This is accomplished by defining a detailed set of `proptypes` for your components, even when defining complex data structures. Also, the `rest` operator would be discouraged on the fact that it allows a backdoor access to your HTML elements, by allowing outside forces to push unexpected props to your component, that will get pushed directly through to your HTML elements. Additionally, a good point was made with regards to styling your components; styling that affects the outside of your element's box, such as margin and padding, should not be defined by the component itself, rather by its parent component. This is because components should be self-sufficient, only affecting content that is considered within its world.
 
+#### Function as Child Components
+
+https://medium.com/merrickchristensen/function-as-child-components-5f3920a9ace9#.qlfg97204
+
+> **TL;DR** Function as child components allows better flexibility outside of your component as to how render the data out. By passing a function as a child to a component (and that component calling that function on render), you are empowering outside components to defined their own render logic. An excellent example of this is if you created a `<MediaQuery />` component, you could defined a function as a child that would take in a boolean flag that let you render specific components whenever that specific query is matched.
+
 ### Styling
 
 #### Modular CSS with React
