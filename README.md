@@ -102,6 +102,13 @@ https://medium.com/@rjun07a/binding-callbacks-in-react-components-9133c0b396c6#.
 
 > **TL;DR**: As React class methods aren't automatically binded to their scope, this step needs to be done manually. It's best to avoid binding these inside the render function since the two most common approaches to method binding - arrow functions and `bind()` generate a new function per call, adding extra weight on the `render()` method's execution. For that reason, it's best to do this outside of the `render()` method, either in the constructor or with an arrow function class property.
 
+#### [Video - 21:59] Netflix JavaScript Talks - React plus X: Best Practices for Reusable UI Components
+
+Mars Jullian ([@marsjosephine](https://twitter.com/marsjosephine)), Senior UI Engineer at Netflix, shares best practices for writing reusable components with React including h ow to define flexible props for React components and keep your coworkers from going crazy.
+
+https://www.youtube.com/watch?v=Yy7gFgETp0o
+
+**TL;DR** Many great UI best practices are offered here to optimize the self-sufficiency and integration of reusable components. Firstly, it's worth being as explicit as possible when defining your components' behaviour in order for other developers to gain as much context as possible on how to properly use your components. This is accomplished by defining a detailed set of `proptypes` for your components, even when defining complex data structures. Also, the `rest` operator would be discouraged on the fact that it allows a backdoor access to your HTML elements, by allowing outside forces to push unexpected props to your component, that will get pushed directly through to your HTML elements. Additionally, a good point was made with regards to styling your components; styling that affects the outside of your element's box, such as margin and padding, should not be defined by the component itself, rather by its parent component. This is because components should be self-sufficient, only affecting content that is considered within its world.
 
 ### Styling
 
