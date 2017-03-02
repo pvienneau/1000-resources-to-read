@@ -4,6 +4,7 @@
 - [CSS](#css)
 - [Javascript](#javascript)
  - [Functional Programming](#functional-programming)
+ - [ES6](#es6)
 - [React](#react)
  - [Components](#components)
  - [Styling](#styling)
@@ -50,6 +51,16 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 https://www.airpair.com/javascript/javascript-array-reduce
 
 > **TL;DR** Reduce essentially iterates through your Array set, pushing along an accumulator value that you can set values to. 
+
+### ES6 (#es6)
+
+#### Javascript ES6: Learn important features in a few minutes
+
+*The next-generation of javascript also known as ECMAScript 6 (also called ES6 or Harmony), is bringing us lots of amazing features that you probably will need to know. But instead of you spend too much time learning and researching all of the features I separated a few that I felt are the ones you'll be probably using in your daily basis.*
+
+https://www.frontendjournal.com/javascript-es6-learn-important-features-in-a-few-minutes/
+
+> **TL;DR** ES6 Javascript offers alot of features that have been lacking in Javascript in the past. Node.js has been supporting ES6 for a while, while browsers are lacking behind, but are slowly catching up. Therefore, it's good to start learning these new syntaxes. It's important to keep in mind that quite a few ES6 syntax is really just *"sugar syntax"*, meaning that it's simplified syntax that accomplishes the same task as some syntax you're already accustomed to. Knowing this, you shouldn't shy away of learning these new syntaxes.
 
 ## React
 
