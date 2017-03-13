@@ -1,7 +1,9 @@
 # 1000 Resources to Read
 
 - [JSConf](#jsconf)
-- [CSS](#css)
+- [Styling](#styling)
+ - [CSS](#css)
+ - [SCSS](#scss)
 - [Javascript](#javascript)
  - [Functional Programming](#functional-programming)
  - [ES6](#es6)
@@ -24,7 +26,9 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 > **TL;DR** Hacking games allows you to perfect your analytical code skills while having fun. It also exposes to other developers' code, which may help you improve your own.
 
-## CSS
+## Styling
+
+### CSS
 
 #### How Flexbox works — explained with big, colorful, animated gifs
 
@@ -33,6 +37,16 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck2u9x
 
 > **TL;DR**: `flex-direction` plays directly onto the main (horizontal) and cross (vertical) axes by inverting them in the case of `flex-direction:column`. Secondary styles such as `justify-content` and `align-items` work directly on these axes and it's important to keep in mind in which direction the main axes is currently oriented, in order to correctly guage the result. 
+
+### SCSS
+
+#### How to Use Sass Mixins
+
+*Sass is incredible. Whether using it as Sass or SCSS, it improves productivity and makes complex CSS tasks easy. Sass is easy to debug and lets us do more with CSS.*
+
+https://scotch.io/tutorials/how-to-use-sass-mixins
+
+> **TL;DR**: Sass is a powerful tool to complement your css styling, allowing you to reduce your code complexity through code re-use, both on styles and style selector rules.
 
 ## Javascript
 
