@@ -38,6 +38,14 @@ https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck
 
 > **TL;DR**: `flex-direction` plays directly onto the main (horizontal) and cross (vertical) axes by inverting them in the case of `flex-direction:column`. Secondary styles such as `justify-content` and `align-items` work directly on these axes and it's important to keep in mind in which direction the main axes is currently oriented, in order to correctly guage the result. 
 
+#### EM vs REM vs PX – Why you shouldn't "just use pixels"
+
+*We, like many others, were ready to ditch REMs and return to the beloved pixel. We lost track of why we adopted the use of REMs in the first place. The problem doesn’t just revolve around font-sizes - it’s also about accessibility.*
+
+http://engageinteractive.co.uk/blog/em-vs-rem-vs-px
+
+> **TL;DR** REMs are a relative unit, similar to EMs, that measure its size relative to the `HTML` element. This means that you allow for better accessibility by being able to grow all text by a relative size, such as EMs, while not experiencing nested hell by need to set your size relative to the parent element.
+
 ### SCSS
 
 #### How to Use Sass Mixins
