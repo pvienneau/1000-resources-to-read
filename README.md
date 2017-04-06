@@ -7,6 +7,7 @@
 - [Javascript](#javascript)
  - [Functional Programming](#functional-programming)
  - [ES6](#es6)
+ - [ImmutableJS](#immutable)
 - [React](#react)
  - [Components](#components)
  - [Styling](#styling)
@@ -91,6 +92,14 @@ https://www.frontendjournal.com/javascript-es6-learn-important-features-in-a-few
 https://davidwalsh.name/spread-operator
 
 > **TL;DR** Spread operators are great when trying grab or set *all* values found within a variable. This can be used to quickly manipulate objects, arrays, event arguments lists into whatever configuration or structure you require.
+
+### [Video - 31:10] React.js Conf 2015 - Immutable Data and React
+
+*Immutable data unlocks powerful memoization techniques and prohibits accidental coupling via shared mutable state. It's no accident that these are the the same benefits provided by React.*
+
+https://www.youtube.com/watch?v=I7IdS-PbEgI
+
+> *TL;DR*: ImmutableJS offers a persistent data structure by never modifying the current state, always returning the new state. This allows your functions to be memoized by returning the old state if no changes to the function's parameters is passed. 
 
 ## React
 
