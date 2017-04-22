@@ -7,7 +7,8 @@
 - [Javascript](#javascript)
  - [Functional Programming](#functional-programming)
  - [ES6](#es6)
- - [ImmutableJS](#immutable)
+ - [ImmutableJS](#immutablejs)
+ - [General Patterns](#general-patterns)
 - [React](#react)
  - [Components](#components)
  - [Styling](#styling)
@@ -75,7 +76,7 @@ https://www.airpair.com/javascript/javascript-array-reduce
 
 > **TL;DR** Reduce essentially iterates through your Array set, pushing along an accumulator value that you can set values to. 
 
-### ES6 (#es6)
+### ES6
 
 #### Javascript ES6: Learn important features in a few minutes
 
@@ -99,7 +100,19 @@ https://davidwalsh.name/spread-operator
 
 https://www.youtube.com/watch?v=I7IdS-PbEgI
 
-> *TL;DR*: ImmutableJS offers a persistent data structure by never modifying the current state, always returning the new state. This allows your functions to be memoized by returning the old state if no changes to the function's parameters is passed. 
+> **TL;DR**: ImmutableJS offers a persistent data structure by never modifying the current state, always returning the new state. This allows your functions to be memoized by returning the old state if no changes to the function's parameters is passed. 
+
+### ImmutableJS
+
+### General Patterns
+
+#### The Difference Between Throttling and Debouncing
+
+*I got these confused the other day and someone corrected me. So I tossed it on the ol' list of blog post ideas and here we are. Both of them are ways to limit the amount of JavaScript you are executing based on DOM events for performance reasons. But they are, you guessed it, different.*
+
+https://css-tricks.com/the-difference-between-throttling-and-debouncing/
+
+> **TL;DR**: **Debouncing** enforces that a function not be called again until a certain amount of time has passed without it being called. **Throttling** enforces a maximum number of times a function can be called over time.
 
 ## React
 
