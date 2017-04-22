@@ -9,6 +9,7 @@
  - [ES6](#es6)
  - [ImmutableJS](#immutablejs)
  - [General Patterns](#general-patterns)
+ - [Helper Libraries](#helper-libraries)
 - [React](#react)
  - [Components](#components)
  - [Styling](#styling)
@@ -113,6 +114,14 @@ https://www.youtube.com/watch?v=I7IdS-PbEgI
 https://css-tricks.com/the-difference-between-throttling-and-debouncing/
 
 > **TL;DR**: **Debouncing** enforces that a function not be called again until a certain amount of time has passed without it being called. **Throttling** enforces a maximum number of times a function can be called over time.
+
+### Helper Libraries
+
+#### Underscore vs Lo-Dash
+
+https://benmccormick.org/2014/11/12/underscore-vs-lodash/
+
+> **TL;DR** Underscore and Lo-Dash intends to address the same problem: Cross-browser compatibility functional programming. Based on this article, Lo-dash comes out the clear winner on three aspects: Performance, Usability and functionality offered. Keep in mind that this article was written in 2014.
 
 ## React
 
