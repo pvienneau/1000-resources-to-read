@@ -2,25 +2,25 @@
 
 - [JSConf](#jsconf)
 - [Styling](#styling)
- - [CSS](#css)
- - [SCSS](#scss)
+   - [CSS](#css)
+   - [SCSS](#scss)
 - [Javascript](#javascript)
- - [Functional Programming](#functional-programming)
- - [ES6](#es6)
- - [ImmutableJS](#immutablejs)
- - [General Patterns](#general-patterns)
- - [Helper Libraries](#helper-libraries)
+   - [Functional Programming](#functional-programming)
+   - [ES6](#es6)
+   - [ImmutableJS](#immutablejs)
+   - [General Patterns](#general-patterns)
+   - [Helper Libraries](#helper-libraries)
 - [React](#react)
- - [Components](#components)
- - [Styling](#styling)
- - [State](#state)
- - [Redux](#redux)
+   - [Components](#components)
+   - [Styling](#styling)
+   - [State](#state)
+   - [Redux](#redux)
 - [Testing](#testing)
- - [React](#react)
- - [Jest](#jest)
- - [Jasmine](#jasmine)
- - [Snapshot Testing](#snapshot-testing)
- - [Redux](#Redux)
+   - [React](#react)
+   - [Jest](#jest)
+   - [Jasmine](#jasmine)
+   - [Snapshot Testing](#snapshot-testing)
+   - [Redux](#Redux)
 
 ## JSConf
 
@@ -77,6 +77,12 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 https://www.airpair.com/javascript/javascript-array-reduce
 
 > **TL;DR** Reduce essentially iterates through your Array set, pushing along an accumulator value that you can set values to. 
+
+#### FunFunFunction
+
+https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+
+> **TL;DR**: A great channel that walks you through the various facets of functional programming, building on the fundamental principles to punch the boundaries on what you can achieve. Also has many videos on thoughts/opinions on what makes a programmer good, both from the perspective of an employer but also from the perspective of a fellow programmer.
 
 ### ES6
 
