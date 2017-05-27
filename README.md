@@ -10,6 +10,7 @@
    - [ImmutableJS](#immutablejs)
    - [General Patterns](#general-patterns)
    - [Helper Libraries](#helper-libraries)
+   - [Streams](#streams)
 - [React](#react)
    - [Components](#components)
    - [Styling](#styling)
@@ -129,6 +130,16 @@ https://css-tricks.com/the-difference-between-throttling-and-debouncing/
 https://benmccormick.org/2014/11/12/underscore-vs-lodash/
 
 > **TL;DR** Underscore and Lo-Dash intends to address the same problem: Cross-browser compatibility functional programming. Based on this article, Lo-dash comes out the clear winner on three aspects: Performance, Usability and functionality offered. Keep in mind that this article was written in 2014.
+
+### Streams
+
+#### Streams - FunFunFunction
+
+https://www.youtube.com/watch?v=UD2dZw9iHCc
+
+*A stream is a flow of values that will be arriving whenever they feel like.*
+
+> **TL;DR** You can see streams as a collection of data that is iterable like an array, but that will be iterated as the data arrives, just like a promise.
 
 ## React
 
