@@ -71,6 +71,14 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 > **TL;DR**: One concept to remember from this is that immutability is exploiting object's use of references to allow to minimize structure repeat between mutated data structures by referencing structures between objects that have not been modified. Although it speaks more to the usage of functional programming as a whole, it unfortunately doesn't go into depth about the functional programmning mindset.
 
+#### Why Curry Helps
+
+*A programmer’s pipe-dream is to write code, and be able to use it repeatedly with little effort. It’s expressive because you write in a way that expresses what is needed, and it’s reuse because.. well, you’re reusing. What more could you want?*
+
+https://hughfdjackson.com/javascript/why-curry-helps/
+
+> **TL;DR**: In these examples, currying is used to setup each operation with Ramda functions, and passing data through each sequentially through a Promise object. The same pattern can be used with a compose to stream the result of each operation through to the next. The advantage of this is that it allows you to either break complex data operations into smaller pieces or abstract it away into its own method, currying as you get more data.
+
 #### Understanding Javascript Array Reduce in 1 Minute
 
 *Everybody knows what looping over a collection is. But do you know what reducing a collection means?*
