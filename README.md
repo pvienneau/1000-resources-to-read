@@ -93,6 +93,14 @@ https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
 
 > **TL;DR**: A great channel that walks you through the various facets of functional programming, building on the fundamental principles to punch the boundaries on what you can achieve. Also has many videos on thoughts/opinions on what makes a programmer good, both from the perspective of an employer but also from the perspective of a fellow programmer.
 
+#### [Video - 30:16] Hey Underscore, You're Doing It Wrong!
+
+*Brian Lonsdorf has a love-hate relationship with Underscore.js. Yes, it offers a bunch of tools included in today's functional programming paradigm (like map, filter, reduce, take, drop, compose, etc.), but in Underscore the functions are sometimes verbose and unintuitive. It claims to be a functional programming language, but how true is that?*
+
+https://www.youtube.com/watch?v=m3svKOdZijA
+
+> **TL;DR**: Some functional libraries such as **Underscore** and **lodash** do offer functions that are leveraged through functional programming, but fall short of truly embodying the patterns offered by functional programming. The examples are shown alongside **Ramda**, in order to demonstrate the power of such a library that fully implements functional programming.
+
 ### ES6
 
 #### Javascript ES6: Learn important features in a few minutes
