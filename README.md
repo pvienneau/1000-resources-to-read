@@ -4,6 +4,7 @@
 - [Styling](#styling)
    - [CSS](#css)
    - [SCSS](#scss)
+   - [BEM](#BEM)
 - [Javascript](#javascript)
    - [Functional Programming](#functional-programming)
    - [ES6](#es6)
@@ -60,6 +61,16 @@ http://engageinteractive.co.uk/blog/em-vs-rem-vs-px
 https://scotch.io/tutorials/how-to-use-sass-mixins
 
 > **TL;DR**: Sass is a powerful tool to complement your css styling, allowing you to reduce your code complexity through code re-use, both on styles and style selector rules.
+
+### BEM
+
+#### BEM - Block Element Modifier
+
+*On smaller brochure sites, how you organize your styles isn’t usually a big concern. You get in there, write some CSS, or maybe even some SASS. You compile it all into a single stylesheet with SASS’s production settings, and then you aggregate it to get all the stylesheets from modules into a nice tidy package.*
+
+http://getbem.com/introduction/
+
+> **TL;DR**: BEM allows you to better organize your styling by defining a naming convention for your classes, which sets purpose to your class assignments. It also imposes a nesting structure, which also works great for limiting styling overflow between elements.
 
 ## Javascript
 
