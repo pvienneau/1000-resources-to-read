@@ -72,6 +72,14 @@ http://getbem.com/introduction/
 
 > **TL;DR**: BEM allows you to better organize your styling by defining a naming convention for your classes, which sets purpose to your class assignments. It also imposes a nesting structure, which also works great for limiting styling overflow between elements.
 
+#### ‘Why BEM?’ in a nutshell
+
+**The two base concepts of CSS? Inheritance and specificity.**
+
+https://blog.decaf.de/2015/06/24/why-bem-in-a-nutshell/
+
+> **TL;DR**: BEM tries to solve two of CSS's main issues: inheritence and specificity. By scoping blocks to a certain namespace (BEM block name), you are scoping down your styles to only affect the one block element and below. In terms of specificity, keeping these blocks as small as possible reduces the specificity required to override styles within these blocks.
+
 ## Javascript
 
 ### Functional Programming
