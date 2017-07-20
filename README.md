@@ -17,6 +17,7 @@
    - [Styling](#styling)
    - [State](#state)
    - [Redux](#redux)
+   - [Events](#react-events)
 - [Testing](#testing)
    - [React](#react)
    - [Jest](#jest)
@@ -262,6 +263,7 @@ https://medium.com/@mweststrate/3-reasons-why-i-stopped-using-react-setstate-ab7
 ### Redux
 
 #### [Video - 37:13] Netflix JavaScript Talks - RxJS + Redux + React = Amazing!
+
 *Jay Phelps (@_jayphelps ) talks about why Netflix loves reactive programming with Rx. In this talk he shares the basics of RxJS 5 Observables and how they can be used with React and Redux to manage asynchronous effects using redux-observable.*
 
 https://www.youtube.com/watch?v=AslncyG8whg
@@ -275,6 +277,16 @@ https://www.youtube.com/watch?v=AslncyG8whg
 https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.x7p4tms7k
 
 > **TL;DR**: Redux, offering its benefits, has its own trade-off with its own constraints it sets on the data. It would be safe decision to not always jump the gun on committing to a Redux implementation, as it comes with certain strong conventions on how data should be managed. Although the questions asked here isn't necessarily "Is Redux the best tool", what it's trying to ask is "Is it too soon in the development lifecycle of the application to be commiting to Redux".
+
+### Events
+
+#### SyntheticEvent
+
+*Your event handlers will be passed instances of SyntheticEvent, a cross-browser wrapper around the browser's native event. It has the same interface as the browser's native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.*
+
+https://facebook.github.io/react/docs/events.html
+
+> **TL;DR**: React wraps ever DOM events into a Synthetic event, which allows for full browser compatibility. Its intent is to still behave like any DOM event, and so you still have access to the common methods and data. One thing to note is that the synthetic events cannot be access asynchronously as they are pooled. If you need to access an event asynchronously, you should use `e.persist()`.
 
 ## Testing
 
