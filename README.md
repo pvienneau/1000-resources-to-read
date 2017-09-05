@@ -33,6 +33,10 @@ https://www.youtube.com/watch?v=pSMljRkpP64
 
 > **TL;DR** Hacking games allows you to perfect your analytical code skills while having fun. It also exposes to other developers' code, which may help you improve your own.
 
+#### [Video - 30:44] Machine Learning with Node.js
+
+> **TL;DR** Machine learning is all about computing probabilities for a defined set of inputs and possible outcomes. Neural networks allow you to reinforce strong data relationships while mutating weaker ones.
+
 ## Styling
 
 ### CSS
