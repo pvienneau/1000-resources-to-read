@@ -11,7 +11,7 @@
    - [ImmutableJS](#immutablejs)
    - [General Patterns](#general-patterns)
    - [Helper Libraries](#helper-libraries)
-   - [Streams](#streams)
+   - [Observables](#observables)
 - [React](#react)
    - [Components](#components)
    - [Styling](#styling)
@@ -101,7 +101,7 @@ https://www.youtube.com/watch?v=e-5obm1G_FY
 
 https://hughfdjackson.com/javascript/why-curry-helps/
 
-> **TL;DR**: In these examples, currying is used to setup each operation with Ramda functions, and passing data through each sequentially through a Promise object. The same pattern can be used with a compose to stream the result of each operation through to the next. The advantage of this is that it allows you to either break complex data operations into smaller pieces or abstract it away into its own method, currying as you get more data.
+   > **TL;DR**: In these examples, currying is used to setup each operation with Ramda functions, and passing data through each sequentially through a Promise object. The same pattern can be used with a compose to stream the result of each operation through to the next. The advantage of this is that it allows you to either break complex data operations into smaller pieces or abstract it away into its own method, currying as you get more data.
 
 #### Understanding Javascript Array Reduce in 1 Minute
 
@@ -171,7 +171,7 @@ https://benmccormick.org/2014/11/12/underscore-vs-lodash/
 
 > **TL;DR** Underscore and Lo-Dash intends to address the same problem: Cross-browser compatibility functional programming. Based on this article, Lo-dash comes out the clear winner on three aspects: Performance, Usability and functionality offered. Keep in mind that this article was written in 2014.
 
-### Streams
+### Observable
 
 #### Streams - FunFunFunction
 
@@ -180,6 +180,12 @@ https://www.youtube.com/watch?v=UD2dZw9iHCc
 *A stream is a flow of values that will be arriving whenever they feel like.*
 
 > **TL;DR** You can see streams as a collection of data that is iterable like an array, but that will be iterated as the data arrives, just like a promise.
+
+#### RxJS Observables Crash Course
+
+*Over an hour of programming with RxJS (Reactive Extensions) using observables and asynchronous data streams. The content is based on our ReactiveX Eduonix course*
+
+> **TL;DR** A good coverage of the fundamentals of observables through RxJS, covering the most common Observable setups and operators.
 
 ## React
 
