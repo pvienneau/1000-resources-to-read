@@ -249,6 +249,14 @@ https://medium.com/merrickchristensen/function-as-child-components-5f3920a9ace9#
 
 > **TL;DR** Function as child components allows better flexibility outside of your component as to how render the data out. By passing a function as a child to a component (and that component calling that function on render), you are empowering outside components to defined their own render logic. An excellent example of this is if you created a `<MediaQuery />` component, you could defined a function as a child that would take in a boolean flag that let you render specific components whenever that specific query is matched.
 
+#### Never Write Another HoC
+
+*Michael Jackson, creator of the React Router library, gives this talk where he says a component with a render prop or children prop as renderer can do anything an HoC (Higher Order Component) can do, and more.*
+
+https://www.youtube.com/watch?v=BcVAq3YFiuc
+
+> **TL;DR** Higher Order Components have fundamental issues as a pattern that does create unecessary abstraction and separation of knowledge between its class implementation and composition. Components with render props attempt to solve these HOC shortcomings by simplifying the execution flow through these components. By using a render prop, you allow your components do be alot more declarative and explicit to the values it receives and uses, while avoiding the common pitfalls of HoCs.
+
 ### Styling
 
 #### Modular CSS with React
