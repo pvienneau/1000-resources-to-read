@@ -5,6 +5,7 @@
    - [CSS](#css)
    - [SCSS](#scss)
    - [BEM](#BEM)
+   - [Styled Components](#styled-components)
 - [Javascript](#javascript)
    - [Functional Programming](#functional-programming)
    - [ES6](#es6)
@@ -84,6 +85,14 @@ http://getbem.com/introduction/
 https://blog.decaf.de/2015/06/24/why-bem-in-a-nutshell/
 
 > **TL;DR**: BEM tries to solve two of CSS's main issues: inheritence and specificity. By scoping blocks to a certain namespace (BEM block name), you are scoping down your styles to only affect the one block element and below. In terms of specificity, keeping these blocks as small as possible reduces the specificity required to override styles within these blocks.
+
+### Styled Components
+
+#### The magic behind styled-components
+
+http://mxstbr.blog/2016/11/styled-components-magic-explained/
+
+> **TL;DR**: Styled components leverages Tagged Template Literals, a new feature coming from ES6 which allows us to call a function while providing template interpolations as separate functions to the argument set, which allows Styled Components to render out styles as a function of the results of these interpolations.
 
 ## Javascript
 
