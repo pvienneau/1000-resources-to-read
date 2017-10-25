@@ -24,7 +24,7 @@
    - [Jest](#jest)
    - [Jasmine](#jasmine)
    - [Snapshot Testing](#snapshot-testing)
-   - [Redux](#Redux)
+   - [Redux](#redux)
 
 ## JSConf
 
@@ -56,7 +56,15 @@ https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck
 
 http://engageinteractive.co.uk/blog/em-vs-rem-vs-px
 
-> **TL;DR** REMs are a relative unit, similar to EMs, that measure its size relative to the `HTML` element. This means that you allow for better accessibility by being able to grow all text by a relative size, such as EMs, while not experiencing nested hell by need to set your size relative to the parent element.
+> **TL;DR**: REMs are a relative unit, similar to EMs, that measure its size relative to the `HTML` element. This means that you allow for better accessibility by being able to grow all text by a relative size, such as EMs, while not experiencing nested hell by need to set your size relative to the parent element.
+
+#### Pointer-Events
+
+*The `pointer-events` property allows for control over how HTML elements respond to mouse/touch events – including CSS hover/active states, click/tap events in Javascript, and whether or not the cursor is visible.*
+
+https://css-tricks.com/almanac/properties/p/pointer-events/
+
+> **TL;DR**: `pointer-events` allows to control user intentions through and around a given HTML element. By setting `pointer-events` to `none`, the browser will handler user interactions on the next available element below the given element, while Javascript events will behave the same way.
 
 ### SCSS
 
