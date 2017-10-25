@@ -100,6 +100,12 @@ https://www.youtube.com/watch?v=ftSzsghg2io
 
 > **TL;DR** Great walkthrough of the various solutions to styling in React, presents the pros and cons of all solutions and explains why Styled Components helps improve organization and implementation while maintaining full CSS support.
 
+#### Add styled components - Let's talk
+
+https://github.com/gitpoint/git-point/issues/480#issuecomment-337886247
+
+> **TL;DR**: Insightful discussion thread about a code repository transitionning to using styled components. A good insight into the decision making of what/how this would affect an every day codebase.
+
 ## Javascript
 
 ### Functional Programming
