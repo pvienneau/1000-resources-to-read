@@ -438,9 +438,7 @@ http://randycoulman.com/blog/2016/09/13/encapsulating-the-redux-state-tree/
 
 https://www.youtube.com/watch?v=yq99BvSe1AQ&t=666s
 
-> **TL;DR**:
-
-[Cypress.io](https://www.cypress.io/) attempts to solve all the developper pain points of End-to-end testing frameworks by making tests easy to write, quick to run and simple to debug. It also allows to take snapshots of the rendering, run on different browsers and control the viewport size. All you need.
+> **TL;DR**: [Cypress.io](https://www.cypress.io/) attempts to solve all the developper pain points of End-to-end testing frameworks by making tests easy to write, quick to run and simple to debug. It also allows to take snapshots of the rendering, run on different browsers and control the viewport size. All you need.
 
 #### Testing React Components using Storybook and Cypress
 
