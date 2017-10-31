@@ -25,6 +25,7 @@
    - [Jasmine](#jasmine)
    - [Snapshot Testing](#snapshot-testing)
    - [Redux](#redux)
+   - [Integration Testing](#integration-testing)
 
 ## JSConf
 
@@ -409,7 +410,7 @@ https://content.pivotal.io/blog/writing-beautiful-specs-with-jasmine-custom-matc
 
 http://randycoulman.com/blog/2016/09/06/snapshot-testing-use-with-care/
 
-> **TL;DR** Snapshot testing offers a strong strategy for regression testing, but there are trade-offs to be calculated before running ahead with it. Firstly, snapshot testing requires human interaction to validate the diffs prior to it being merged into the code base, which raised a risk of errors being introduced. Context is also hard to define for tests through snapshots since the tests don't always offer as much description since code is minimal. 
+> **TL;DR**: Snapshot testing offers a strong strategy for regression testing, but there are trade-offs to be calculated before running ahead with it. Firstly, snapshot testing requires human interaction to validate the diffs prior to it being merged into the code base, which raised a risk of errors being introduced. Context is also hard to define for tests through snapshots since the tests don't always offer as much description since code is minimal. 
 
 #### Snapshot Testing in React Storybook
 
@@ -417,7 +418,7 @@ http://randycoulman.com/blog/2016/09/06/snapshot-testing-use-with-care/
 
 https://voice.kadira.io/snapshot-testing-in-react-storybook-43b3b71cec4f#.skc9w5rkj
 
-> **TL;DR** Jest's snapshot testing has now been introduced to [Storybook](https://github.com/storybooks/react-storybook) which allows you to leverage the stories written out for rendering regression testings. Although snapshot testing won't replace all unit tests for React components, it will be able to automatically run the more mundane tests relating to the proper rendering of a component.
+> **TL;DR**: Jest's snapshot testing has now been introduced to [Storybook](https://github.com/storybooks/react-storybook) which allows you to leverage the stories written out for rendering regression testings. Although snapshot testing won't replace all unit tests for React components, it will be able to automatically run the more mundane tests relating to the proper rendering of a component.
 
 ### Redux
 
@@ -427,4 +428,16 @@ https://voice.kadira.io/snapshot-testing-in-react-storybook-43b3b71cec4f#.skc9w5
 
 http://randycoulman.com/blog/2016/09/13/encapsulating-the-redux-state-tree/
 
-> **TL;DR** Encapsulation is a powerful pattern in the Redux world in order to centralize each type of execution of the store data in the same location. From reading through selectors or writing in reducers and action creators, it greatly simplifies your component code and testing code by enforcing a certain flow through these modules. For example, writing your reducer tests by referencing action creators and selectors allows you to more easily refactor your store without having to refactor your tests.
+> **TL;DR**: Encapsulation is a powerful pattern in the Redux world in order to centralize each type of execution of the store data in the same location. From reading through selectors or writing in reducers and action creators, it greatly simplifies your component code and testing code by enforcing a certain flow through these modules. For example, writing your reducer tests by referencing action creators and selectors allows you to more easily refactor your store without having to refactor your tests.
+
+### Integration Testing
+
+#### [Video - 1:00:31] Testing, the way it should be
+
+*Testing is the essential bedrock of software, and we can all agree it a must-have. But when we talk about writing tests for the front-end, most developers immediately run into several challenges. Brian Mann will introduce a new JavaScript testing tool, Cypress.io, which solves the hardest challenges of testing modern, complex applications. You'll leave this talk re-energized and believe that testing can be a fun, enjoyable experience without the soul crushing pain it is today.*
+
+https://www.youtube.com/watch?v=yq99BvSe1AQ&t=666s
+
+> **TL;DR**:
+
+[Cypress](https://www.cypress.io/) attempts to solve all the developper pain points of End-to-end testing frameworks by making tests easy to write, quick to run and simple to debug. It also allows to take snapshots of the rendering, run on different browsers and control the viewport size. All you need.
