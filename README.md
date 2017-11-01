@@ -67,6 +67,14 @@ https://css-tricks.com/almanac/properties/p/pointer-events/
 
 > **TL;DR**: `pointer-events` allows to control user intentions through and around a given HTML element. By setting `pointer-events` to `none`, the browser will handler user interactions on the next available element below the given element, while Javascript events will behave the same way.
 
+#### A Complete Guide to Grid
+
+*CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).*
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+> **TL;DR**: CSS Grid systems helps fill in the gap that is left by Flexbox, when trying to build 2-dimensional grid systems (in both rows and columns). It allows you to build this system fully in CSS, so unlike buildling grids through `table`s or `flexbox`, your structure isn't being defined in HTML.
+
 ### SCSS
 
 #### How to Use Sass Mixins
