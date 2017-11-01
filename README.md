@@ -75,6 +75,14 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 > **TL;DR**: CSS Grid systems helps fill in the gap that is left by Flexbox, when trying to build 2-dimensional grid systems (in both rows and columns). It allows you to build this system fully in CSS, so unlike buildling grids through `table`s or `flexbox`, your structure isn't being defined in HTML.
 
+#### An Introduction to the `fr` CSS unit
+
+*With all the excitement around CSS Grid, I haven't seen as much talk about the new fr CSS length unit. And now that browser support is rapidly improving for this feature, I think this is the time to explore how it can be used in conjunction with our fancy new layout engine because there are a number of benefits when using it; more legible and maintainable code being the primary reasons for making the switch.*
+
+https://css-tricks.com/introduction-fr-css-unit/
+
+> **TL;DR**: The `fr` unit allows you to create `flex fraction`s, which essentially takes the remaining space allows to given components and splits it based on the accumulated `fr`s found in all its siblings. Given that this can be mixed with other more static units of measurements in CSS, this allows you to create highly dynamic and flexible systems, such as a fluid column system that takes the remaining space around a fixed-size sidebar.
+
 ### SCSS
 
 #### How to Use Sass Mixins
