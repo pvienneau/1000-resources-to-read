@@ -83,6 +83,12 @@ https://css-tricks.com/introduction-fr-css-unit/
 
 > **TL;DR**: The `fr` unit allows you to create `flex fraction`s, which essentially takes the remaining space allows to given components and splits it based on the accumulated `fr`s found in all its siblings. Given that this can be mixed with other more static units of measurements in CSS, this allows you to create highly dynamic and flexible systems, such as a fluid column system that takes the remaining space around a fixed-size sidebar.
 
+#### [Video - 2:59] Grid by Example: the fr unit
+
+https://www.youtube.com/watch?v=N731aTpo8TI
+
+> **TL;DR**: A few examples of working through certain scenarios with `fr` units.
+
 ### SCSS
 
 #### How to Use Sass Mixins
