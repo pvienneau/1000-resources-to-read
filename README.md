@@ -445,3 +445,11 @@ https://www.youtube.com/watch?v=yq99BvSe1AQ&t=666s
 https://medium.com/@mtiller/testing-react-components-using-storybook-and-cypress-1689a27f55aa
 
 > **TL;DR**: interesting take on automating testing in of React components in Storybook through Cypress. Especially with Crypress's generated artifcacts on test failure, this would be a great approach to cover cross-browser compatibility, rendering regression and overall component functionality. 
+
+### Cypress.io
+
+#### Cypress.io - `cy.contains()`
+
+https://docs.cypress.io/api/commands/contains.html#Scopes
+
+> **TL;DR**: Great article about the exceptional bhaviours of the `.contains()` function, as opposed to other selecting operations in Cypres.io.
