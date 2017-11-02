@@ -67,6 +67,14 @@ https://css-tricks.com/almanac/properties/p/pointer-events/
 
 > **TL;DR**: `pointer-events` allows to control user intentions through and around a given HTML element. By setting `pointer-events` to `none`, the browser will handler user interactions on the next available element below the given element, while Javascript events will behave the same way.
 
+#### A Complete Guide to Flexbox
+
+*The Flexbox Layout module aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic*
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+> **TL;DR**: Flexboxes are handy when it comes to altering a container's items on a certain axis for all of its rendering properties (dimensions, direction, alignment, wrapping, ordering, ...). This system offers an alternative to the display block/inline solutions that have limitations when it comes to creating a grid of items that are fully flexible.
+
 #### A Complete Guide to Grid
 
 *CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).*
