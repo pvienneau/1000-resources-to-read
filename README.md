@@ -91,6 +91,14 @@ https://css-tricks.com/introduction-fr-css-unit/
 
 > **TL;DR**: The `fr` unit allows you to create `flex fraction`s, which essentially takes the remaining space allows to given components and splits it based on the accumulated `fr`s found in all its siblings. Given that this can be mixed with other more static units of measurements in CSS, this allows you to create highly dynamic and flexible systems, such as a fluid column system that takes the remaining space around a fixed-size sidebar.
 
+#### CSS Grid Layout: The Fr Unit
+
+*With CSS Grid Layout, we get a new flexible unit: the Fr unit. Fr is a fractional unit and 1fr is for 1 part of the available space.*
+
+https://alligator.io/css/css-grid-layout-fr-unit/
+
+> **TL;DR**: A few good examples of how `fr` units can be used with `css grids` in order to affect the dimensions of grid items, alongside other units, such as percentages and pixels.
+
 #### [Video - 2:59] Grid by Example: the fr unit
 
 https://www.youtube.com/watch?v=N731aTpo8TI
