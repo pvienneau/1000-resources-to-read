@@ -13,6 +13,7 @@
    - [General Patterns](#general-patterns)
    - [Helper Libraries](#helper-libraries)
    - [Observables](#observables)
+   - [Generator Functions](#generator-functions)
 - [React](#react)
    - [Components](#components)
    - [Styling](#styling)
@@ -241,7 +242,7 @@ https://benmccormick.org/2014/11/12/underscore-vs-lodash/
 
 ### Observable
 
-#### Streams - FunFunFunction
+#### [Video - 15:52] Streams - FunFunFunction
 
 https://www.youtube.com/watch?v=UD2dZw9iHCc
 
@@ -254,6 +255,16 @@ https://www.youtube.com/watch?v=UD2dZw9iHCc
 *Over an hour of programming with RxJS (Reactive Extensions) using observables and asynchronous data streams. The content is based on our ReactiveX Eduonix course*
 
 > **TL;DR** A good coverage of the fundamentals of observables through RxJS, covering the most common Observable setups and operators.
+
+### Generator Functions
+
+#### [Video - 27:19] Generators in Javascript - What, WHy and How
+
+https://www.youtube.com/watch?v=ategZqxHkz4&t=73s
+
+*Generators are (kind of) pausable functions in JavaScript. Another word for them is co-routines. They are used (among other things) to manage async operations, and play very well with promises. *
+
+> **TL;DR** A few good basic examples of implementing generator functions around Promise-based code operations, also writing corouting functions.
 
 ## React
 
