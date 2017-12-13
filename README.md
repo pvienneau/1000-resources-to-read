@@ -232,6 +232,14 @@ https://css-tricks.com/the-difference-between-throttling-and-debouncing/
 
 > **TL;DR**: **Debouncing** enforces that a function not be called again until a certain amount of time has passed without it being called. **Throttling** enforces a maximum number of times a function can be called over time.
 
+#### JavaScript — Map vs. ForEach
+
+*If you’ve worked with JavaScript for a little while, you’ve probably come across two seemingly similar Array methods: Array.prototype.map() and Array.prototype.forEach(). So, what’s the difference?*
+
+https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
+
+> **TL;DR**: Fundamental differences between `.map` and `.forEach` is the return value in each case; whereas `.map` returns a new array of values returned through the callback function, `.forEach` doesn't return a mutated array.
+
 ### Helper Libraries
 
 #### Underscore vs Lo-Dash
