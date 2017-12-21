@@ -27,6 +27,8 @@
    - [Snapshot Testing](#snapshot-testing)
    - [Redux](#redux)
    - [Integration Testing](#integration-testing)
+- [Git](#git)
+   - [Github](#github)
 
 ## JSConf
 
@@ -524,3 +526,13 @@ https://medium.com/@mtiller/testing-react-components-using-storybook-and-cypress
 https://docs.cypress.io/api/commands/contains.html#Scopes
 
 > **TL;DR**: Great article about the exceptional bhaviours of the `.contains()` function, as opposed to other selecting operations in Cypres.io.
+
+## Git
+
+### Github
+
+#### 5 GitHub tips for new coders
+
+https://medium.freecodecamp.org/5-github-tips-for-new-coders-2f312689ffd5
+
+> **TL;DR**: A few great tips for setting your environment to have a better overall experience and better integration with Github
