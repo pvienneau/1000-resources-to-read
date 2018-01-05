@@ -158,6 +158,14 @@ https://github.com/gitpoint/git-point/issues/480#issuecomment-337886247
 
 ## Javascript
 
+#### JS things I never knew existed
+
+*I was reading through the MDN docs the other day and found these JS features and APIs I never knew existed. So here is a short list of those things, useful or not - learning JS seemingly never ends.*
+
+https://air.ghost.io/js-things-i-never-knew-existed/
+
+> **TL;DR**: A few neat little tricks for Javascript that may help you in some exceptional situations
+
 ### Functional Programming
 
 #### [Video - 29:56] Anjana Vakil: Learning Functional Programming with JavaScript
