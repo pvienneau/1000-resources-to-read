@@ -61,3 +61,11 @@ https://alligator.io/css/css-grid-layout-fr-unit/
 https://www.youtube.com/watch?v=N731aTpo8TI
 
 > **TL;DR**: A few examples of working through certain scenarios with `fr` units.
+
+#### What No One Told You About Z-Index
+
+*The problem with z-index is that very few people understand how it really works. It’s not complicated, but it if you’ve never taken the time to read its specification, there are almost certainly crucial aspects that you’re completely unaware of.*
+
+https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+
+> **TL;DR** it's important to conceptualize z-index values as through their respective stack context, in order to avoid the traps of layering elements properly. Certain CSS styles reset this stacking order, so it's important to be aware of those.
