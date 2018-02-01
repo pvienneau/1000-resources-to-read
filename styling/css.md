@@ -68,4 +68,12 @@ https://www.youtube.com/watch?v=N731aTpo8TI
 
 https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 
-> **TL;DR** it's important to conceptualize z-index values as through their respective stack context, in order to avoid the traps of layering elements properly. Certain CSS styles reset this stacking order, so it's important to be aware of those.
+> **TL;DR** It's important to conceptualize z-index values as through their respective stack context, in order to avoid the traps of layering elements properly. Certain CSS styles reset this stacking order, so it's important to be aware of those.
+
+#### CSS stacking contexts: What they are and how they work
+
+*Stacking contexts are an aspect of CSS that trips up most developers. Sure, I understood that z-index required position to be something besides static. But that's about as far as my comprehension went.*
+
+https://tiffanybbrown.com/2015/09/css-stacking-contexts-wtf/index.html
+
+> **TL;DR** Basic summary of stacking context in z-index layering. Mentions the rules of layering, and powers of priority in specifying certain css properties, such as `position` and `z-index`.
