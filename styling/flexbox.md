@@ -15,3 +15,11 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.pmvck2u9x
 
 > **TL;DR**: `flex-direction` plays directly onto the main (horizontal) and cross (vertical) axes by inverting them in the case of `flex-direction:column`. Secondary styles such as `justify-content` and `align-items` work directly on these axes and it's important to keep in mind in which direction the main axes is currently oriented, in order to correctly guage the result.
+
+#### Better, Simpler Grid Systems
+
+*Most grid systems today use one of two layout methods: `float` or `inline-block`. But neither of these methods were really intended to be used for layout and as a result have pretty significant problems and limitations.*
+
+https://philipwalton.github.io/solved-by-flexbox/demos/grids/
+
+> **TL;DR**: The flexbox system is better tailored than `floats` or `inline-block` elements for designing grid systems as it doesn't require any overrides or hacks to make sure all the elements work well with themselves.
