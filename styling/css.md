@@ -69,3 +69,11 @@ https://tiffanybbrown.com/2015/09/css-stacking-contexts-wtf/index.html
 https://blog.prototypr.io/stunning-hover-effects-with-css-variables-f855e7b95330
 
 > **TL;DR** By leveraging the power of CSS variables, you can write minial Javascript code that will simply update those variables on the fly, allowing your CSS to do all the heavy lifting and dynamically render out based on those updated variables.
+
+#### How to make responsiveness super simple with CSS Variables
+
+_If you haven’t heard of CSS Variables before, it’s a new feature of CSS which gives you the power of variables in your stylesheet, without having to do any setup._
+
+https://medium.freecodecamp.org/how-to-make-responsiveness-super-simple-with-css-variables-8c90ebf80d7f
+
+**TL;DR**: CSS variables allow you to group common values together. Along with media queries, you're able to affect change to these CSS variables directly, allowing mobile-friendly values to cascade down into all your selectors. This reduces the amount of duplicate selectors when writing styles specific for a screen.
