@@ -61,3 +61,11 @@ https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 https://tiffanybbrown.com/2015/09/css-stacking-contexts-wtf/index.html
 
 > **TL;DR** Basic summary of stacking context in z-index layering. Mentions the rules of layering, and powers of priority in specifying certain css properties, such as `position` and `z-index`.
+
+#### Stunning hover effects with CSS variables
+
+*I recently got inspired by the playful hover animation on the Grover website. Moving your mouse over the subscribe-button reveals a colorful gradient that follows your cursor as it moves. The idea is simple, but the result is a button that stands out from the reset and waits to be clicked.*
+
+https://blog.prototypr.io/stunning-hover-effects-with-css-variables-f855e7b95330
+
+> **TL;DR** By leveraging the power of CSS variables, you can write minial Javascript code that will simply update those variables on the fly, allowing your CSS to do all the heavy lifting and dynamically render out based on those updated variables.
