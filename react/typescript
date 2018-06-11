@@ -1,0 +1,9 @@
+## Typescript
+
+#### [Video - 14:37] React TypeScript Tutorial (Setup, Installation, Static Type Checking)
+
+*Using Typescript with ReactJS project, Install, Configure and use concepts like Interface, type guards and set default Props. Use inside a class component and a functional component.*
+
+https://www.youtube.com/watch?v=tS6czSZW2oo
+
+> **TL;DR**: Quick overview of the basic of typescript in React; defining interfaces for class props, states and default prop values.
